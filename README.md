@@ -21,6 +21,18 @@ A lightweight, web-based CRM system built using Java (JSP/Servlets), MySQL, and 
 - HTML/CSS/JavaScript
 - NetBeans (for development)
 
+  # Here is the Overview of my project:
+<img width="1470" alt="Screenshot 2025-04-09 at 11 05 59 AM" src="https://github.com/user-attachments/assets/ebb4d873-9e9b-462b-ad0d-67cd3ea3d61b" />
+
+<img width="1470" alt="Screenshot 2025-04-09 at 11 06 10 AM" src="https://github.com/user-attachments/assets/0db10aff-69b5-4722-9af6-ffafafc2b19f" />
+
+<img width="1470" alt="Screenshot 2025-04-09 at 11 06 27 AM"
+src="https://github.com/user-attachments/assets/cb866701-4f26-4c7a-8a7d-96c5367945b4" />
+
+<img width="1470" alt="Screenshot 2025-04-09 at 11 06 39 AM" src="https://github.com/user-attachments/assets/d3db4d0b-ff88-4fbb-8f94-a76088a48628" />
+
+<img width="1470" alt="Screenshot 2025-04-09 at 11 06 50 AM" src="https://github.com/user-attachments/assets/1c11f932-9eaa-4543-b908-15bdab003dc2" />
+
 Here is the Database schema:
 
 ## 🗃️ Database Schema (MySQL)
@@ -39,15 +51,5 @@ CREATE TABLE users (
     password VARCHAR(100)
 );
 
-# Here is the Overview of my project:
-<img width="1470" alt="Screenshot 2025-04-09 at 11 05 59 AM" src="https://github.com/user-attachments/assets/ebb4d873-9e9b-462b-ad0d-67cd3ea3d61b" />
 
-<img width="1470" alt="Screenshot 2025-04-09 at 11 06 10 AM" src="https://github.com/user-attachments/assets/0db10aff-69b5-4722-9af6-ffafafc2b19f" />
-
-<img width="1470" alt="Screenshot 2025-04-09 at 11 06 27 AM"
-src="https://github.com/user-attachments/assets/cb866701-4f26-4c7a-8a7d-96c5367945b4" />
-
-<img width="1470" alt="Screenshot 2025-04-09 at 11 06 39 AM" src="https://github.com/user-attachments/assets/d3db4d0b-ff88-4fbb-8f94-a76088a48628" />
-
-<img width="1470" alt="Screenshot 2025-04-09 at 11 06 50 AM" src="https://github.com/user-attachments/assets/1c11f932-9eaa-4543-b908-15bdab003dc2" />
 
