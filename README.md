@@ -38,18 +38,26 @@ Here is the Database schema:
 ## 🗃️ Database Schema (MySQL)
 
 ```sql
-CREATE TABLE tasks (
+CREATE DATABASE TaskManager;
+
+USE TaskManager;
+
+CREATE TABLE Tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(100),
-    phone VARCHAR(20)
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    category VARCHAR(100)
 );
 
-CREATE TABLE users (
+CREATE TABLE Users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) UNIQUE,
-    password VARCHAR(100)
+    username VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
 );
+
+INSERT INTO Tasks (title, description, category) VALUES
+('Complete Project Report', 'Finalize and submit the final report for the AI project.', 'Work'),
+('Grocery Shopping', 'Buy vegetables, fruits, milk, and other essentials.', 'Personal')
 
 
 
